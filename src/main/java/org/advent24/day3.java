@@ -20,7 +20,7 @@ public class day3 {
             ArrayList<Integer[]> nums = new ArrayList<>();
             boolean enabled = true;
 
-            try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_3"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_3"))) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     input.add(line);

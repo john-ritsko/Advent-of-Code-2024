@@ -16,7 +16,7 @@ public class day4 {
         try {
             ArrayList<String> input = new ArrayList<>();
 
-            try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_4"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_4"))) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     input.add(line);
@@ -145,7 +145,7 @@ public class day4 {
         try {
             ArrayList<String> input = new ArrayList<>();
 
-            try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_4"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_4"))) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     input.add(line);

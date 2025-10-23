@@ -33,7 +33,7 @@ public class day6 {
             String dir = "U";
             Integer[] pos = new Integer[2];
 
-            try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_test_6"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_test_6"))) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     input.add(line);

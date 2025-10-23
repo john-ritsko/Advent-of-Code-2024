@@ -15,7 +15,7 @@ public class day1 {
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/example/input_1"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/inputs/input_1"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 input.add(line);
@@ -59,7 +59,7 @@ public class day1 {
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/example/input_1"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/inputs/input_1"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 input.add(line);
@@ -100,6 +100,4 @@ public class day1 {
 
         System.out.println(score);
     }
-
-
 }

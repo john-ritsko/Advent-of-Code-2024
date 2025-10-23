@@ -19,7 +19,7 @@ public class day5 {
             ArrayList<String> updatesStr = new ArrayList<>();
             HashMap<Integer, Integer[]> rules = new HashMap<>();
 
-            try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_5"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_5"))) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     input.add(line);
@@ -114,7 +114,7 @@ public class day5 {
             ArrayList<String> updatesStr = new ArrayList<>();
             HashMap<Integer, Integer[]> rules = new HashMap<>();
 
-            try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_5"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_5"))) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     input.add(line);

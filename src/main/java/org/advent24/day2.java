@@ -15,7 +15,7 @@ public class day2 {
         ArrayList<String> input = new ArrayList<>();
         ArrayList<Boolean> safety = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_2"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_2"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 input.add(line);
@@ -113,7 +113,7 @@ public class day2 {
         ArrayList<String> input = new ArrayList<>();
         ArrayList<Boolean> safety = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/john/IdeaProjects/adventOfCode24/src/main/java/org/advent24/input_2"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/advent24/input_2"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 input.add(line);
