@@ -4,21 +4,6 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### INPUT FILES ###
-src/main/java/org/advent24/input_1
-src/main/java/org/advent24/input_2
-src/main/java/org/advent24/input_3
-src/main/java/org/advent24/input_4
-src/main/java/org/advent24/input_5
-src/main/java/org/advent24/input_6
-
-src/main/java/org/advent24/input_test_1
-src/main/java/org/advent24/input_test_2
-src/main/java/org/advent24/input_test_3
-src/main/java/org/advent24/input_test_4
-src/main/java/org/advent24/input_test_5
-src/main/java/org/advent24/input_test_6
-
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
